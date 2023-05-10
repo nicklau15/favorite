@@ -1,0 +1,55 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE */
+img{
+
+padding-top: 69px;
+align: left;
+}
+
+h1 {
+padding-top: 5px;
+font-size: 30px;
+font-weight: bold;
+}
+
+img[src="links/hero.jpg"] {
+
+	height: 500px;
+}
+
+img[src="links/nick.jpg"] {
+	
+}
+
+p {
+font-family: artegra;
+font-size: 40px;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+
+  /* Set a specific height */
+  height: 40%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
